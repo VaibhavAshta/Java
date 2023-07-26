@@ -159,6 +159,37 @@ public class Adv_patterns {
             System.out.println();
         }
     }
+        //Bonus Qs
+    public static void number_pyramid(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=(n-i); j++){
+                System.out.print(" ");
+            }
+
+            for(int j=1; j<=i; j++){
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void palindromic_pattern(int n){
+        for(int i=1; i<=n; i++){
+            //spaces
+            for(int j=1; j<= (n-i); j++){
+                System.out.print(" ");
+            }
+            //descending
+            for(int j=i; j>=1; j--){
+                System.out.print(j);
+            }
+            //ascending
+            for(int j=2; j<=i; j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
     public static void main(String args[]){
     //hollow_rectangle(4, 5);
     //inverted_pyramid(11);
@@ -167,8 +198,11 @@ public class Adv_patterns {
     //zero_one_triangle(5); 
     //butterfly(5);
     //solid_rhombus(5);
-    //hollow_rhombus(5);
-    diamond(4);
+    //hollow_rhombus(5);    
+    //diamond(4);
+
+    //number_pyramid(5);
+    palindromic_pattern(5);
 }
 }
 
