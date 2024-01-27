@@ -136,64 +136,64 @@ public class Strings {
     }
     
     public static void main(String[] args) {
-        // char arr[] = {'a','b','c','d'};
+        char arr[] = {'a','b','c','d'};
 
-        // String str = "abcd";
-        // String str2= new String("xyz");
+        String str = "abcd";
+        String str2= new String("xyz");
         
-        // Scanner sc = new Scanner(System.in);
-        // String name;
-        // name = sc.nextLine();
-        // System.out.println(name);
+        Scanner sc = new Scanner(System.in);
+        String name;
+        name = sc.nextLine();
+        System.out.println(name);
 
-        // String name = "Madara Uchiha";
-        // System.out.println(name.length());
+        String name = "Madara Uchiha";
+        System.out.println(name.length());
 
-        // String firstName = "Vaibhav";
-        // String lastName = "Ashta";
-        // String fullString = firstName+" "+lastName;
+        String firstName = "Vaibhav";
+        String lastName = "Ashta";
+        String fullString = firstName+" "+lastName;
 
-        // String check = "racecars";
-        // System.out.println(isPalindrome(check));
+        String check = "racecars";
+        System.out.println(isPalindrome(check));
 
-        // String path = "NS";
-        // System.out.println(getShortestPath(path));
+        String path = "NS";
+        System.out.println(getShortestPath(path));
 
-        // String str = "Hello World";
-        //System.out.println(subString(str, 0, 5));
+        String str = "Hello World";
+        System.out.println(subString(str, 0, 5));
         
-        //inbuild function
-        // System.out.println(str.substring(0, 5));
+        inbuild function
+        System.out.println(str.substring(0, 5));
 
         //Largest string Lexicographically 
-        // String fruits[] = {"apple", "mango", "banana"};
-        // String largest = fruits[0];
+        String fruits[] = {"apple", "mango", "banana"};
+        String largest = fruits[0];
         
-        // for(int i=0; i<fruits.length; i++){
-        //     if(largest.compareTo(fruits[i]) < 0){
-        //         largest = fruits[i];
-        //     }
-        // }
+        for(int i=0; i<fruits.length; i++){
+            if(largest.compareTo(fruits[i]) < 0){
+                largest = fruits[i];
+            }
+        }
 
-        // System.out.println(largest);
+        System.out.println(largest);
 
-        // StringBuilder sb = new StringBuilder("");
-        // for(char ch ='a'; ch<= 'z'; ch++){
-        //     sb.append(ch);
-        // }
-        // System.out.println(sb);
+        StringBuilder sb = new StringBuilder("");
+        for(char ch ='a'; ch<= 'z'; ch++){
+            sb.append(ch);
+        }
+        System.out.println(sb);
 
-        // String str2 = "hi, i am vaibhav";
-        // System.out.println(upperCaseString(str2));
+        String str2 = "hi, i am vaibhav";
+        System.out.println(upperCaseString(str2));
 
-        // String str3 = "aaabbbccddd";
-        // System.out.println(stringComparison(str3));
+        String str3 = "aaabbbccddd";
+        System.out.println(stringComparison(str3));
 
-        // String word = "aeriosufnfkaaa";
-        // System.out.println(countVowels(word));
+        String word = "aeriosufnfkaaa";
+        System.out.println(countVowels(word));
 
-        // String s = "anagram", t = "nagaram";
-        // System.out.println(isAnagram(s, t));
+        String s = "anagram", t = "nagaram";
+        System.out.println(isAnagram(s, t));
     }
     
 }
