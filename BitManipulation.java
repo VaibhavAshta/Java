@@ -67,7 +67,43 @@ public class BitManipulation {
         }
         return counter;
     }
+        public static int fastExpo(int a, int n){
+            int ans = 1;
+            while(n > 0){
+                if((n & 1) != 0){//check LSB
+                    ans = ans * a;
+                }
+                a = a*a;
+                n = n>>1;
+            }
+            return ans;
+        }
+
+    public static void swapWithoutTemp(int a, int b){
+        System.out.println("a = "+a+" b = "+b);
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        System.out.println("a = "+a+" b = "+b);
+    }
     public static void main(String[] args) {
-        System.out.println(countSetBits(16));
+        System.out.println(swapWithoutTemp(2, 5));
+        swapWithoutTemp(2, 5);
+
+        Convert uppercase character to lowercase
+        for(char ch = 'A'; ch <= 'Z'; ch++) {
+            System.out.print((char)(ch | ' '));
+        }
+        prints abcdefghijklmnopqrstuvwxyz
+
+        int x = 6;
+        System.out.println(x + " + " + 1 + " is " + -~x); // Prints: 6 + 1 is 7
+        
+        x = -4;
+        System.out.println(x + " + " + 1 + " is " + -~x); // Prints: -4 + 1 is -3
+        
+        x = 0;
+        System.out.println(x + " + " + 1 + " is " + -~x); // Prints: 0 + 1 is 1
+
     }
 }
