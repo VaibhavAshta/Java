@@ -1,4 +1,4 @@
-/*public class patterns {
+public class patterns {
     public static void main(String agrs[]){
         int n=4;
         for(int line=1; line<=n; line++){
@@ -10,11 +10,11 @@
         }
     }
     
-} */
+} 
 
 //half pyramid
 
-/*import java.util.*;
+import java.util.*;
 public class patterns {
     public static void main(String agrs[]){
         int n =4;
@@ -27,9 +27,9 @@ public class patterns {
 
         }
     }
-} */
+} 
 
-/*import java.util.*;
+import java.util.*;
 public class patterns{
     public static void main(String agrs[]){
         int n =4;
@@ -42,5 +42,5 @@ public class patterns{
             System.out.println();
         }
     }
-} */
+} 
 
